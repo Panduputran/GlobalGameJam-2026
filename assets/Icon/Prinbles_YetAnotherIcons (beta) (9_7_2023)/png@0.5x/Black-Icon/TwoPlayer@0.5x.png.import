@@ -2,22 +2,24 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b674bniyetcvf"
-path="res://.godot/imported/TwoPlayer@0.5x.png-85818ce5a55ed54ba268f6e71776f98f.ctex"
+uid="uid://tw2my010dpix"
+path="res://.godot/imported/TwoPlayer@0.5x.png-09a867cabdc32f2f21f95ba0f6cc0615.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/png@0.5x/Black-Icon/TwoPlayer@0.5x.png"
-dest_files=["res://.godot/imported/TwoPlayer@0.5x.png-85818ce5a55ed54ba268f6e71776f98f.ctex"]
+source_file="res://assets/icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/png@0.5x/Black-Icon/TwoPlayer@0.5x.png"
+dest_files=["res://.godot/imported/TwoPlayer@0.5x.png-09a867cabdc32f2f21f95ba0f6cc0615.ctex"]
 
 [params]
 
 compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
+compress/uastc_level=0
+compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
 compress/normal_map=0
 compress/channel_pack=0
@@ -25,6 +27,10 @@ mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
+process/channel_remap/red=0
+process/channel_remap/green=1
+process/channel_remap/blue=2
+process/channel_remap/alpha=3
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/normal_map_invert_y=false

@@ -2,22 +2,24 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cbh1nwahqu4nb"
-path="res://.godot/imported/Locker-Unlocked.svg-a168e6315716c3644497840b7241f8c7.ctex"
+uid="uid://b6p26u2wyfx3n"
+path="res://.godot/imported/Locker-Unlocked.svg-2b854354e4f160b1a8836216d703a835.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/svg/Black-Icon/Locker-Unlocked.svg"
-dest_files=["res://.godot/imported/Locker-Unlocked.svg-a168e6315716c3644497840b7241f8c7.ctex"]
+source_file="res://assets/icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/svg/Black-Icon/Locker-Unlocked.svg"
+dest_files=["res://.godot/imported/Locker-Unlocked.svg-2b854354e4f160b1a8836216d703a835.ctex"]
 
 [params]
 
 compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
+compress/uastc_level=0
+compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
 compress/normal_map=0
 compress/channel_pack=0
@@ -25,6 +27,10 @@ mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
+process/channel_remap/red=0
+process/channel_remap/green=1
+process/channel_remap/blue=2
+process/channel_remap/alpha=3
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/normal_map_invert_y=false

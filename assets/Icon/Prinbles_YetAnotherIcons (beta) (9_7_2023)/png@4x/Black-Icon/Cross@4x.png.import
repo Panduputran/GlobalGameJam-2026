@@ -2,22 +2,24 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b6mefe71n2lvs"
-path="res://.godot/imported/Cross@4x.png-8dee53facd331afba030d2ed59ec43fd.ctex"
+uid="uid://bjpabwt38mb8d"
+path="res://.godot/imported/Cross@4x.png-b22eab501fc3076d1be3a0eb7efe9b0e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/png@4x/Black-Icon/Cross@4x.png"
-dest_files=["res://.godot/imported/Cross@4x.png-8dee53facd331afba030d2ed59ec43fd.ctex"]
+source_file="res://assets/icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/png@4x/Black-Icon/Cross@4x.png"
+dest_files=["res://.godot/imported/Cross@4x.png-b22eab501fc3076d1be3a0eb7efe9b0e.ctex"]
 
 [params]
 
 compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
+compress/uastc_level=0
+compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
 compress/normal_map=0
 compress/channel_pack=0
@@ -25,6 +27,10 @@ mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
+process/channel_remap/red=0
+process/channel_remap/green=1
+process/channel_remap/blue=2
+process/channel_remap/alpha=3
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/normal_map_invert_y=false
