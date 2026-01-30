@@ -55,4 +55,4 @@ func play_logo(logo_node):
 	logo_node.play("default")
 
 func change_scene():
-	get_tree().change_scene_to_file(next_scene_path)
+	get_tree().change_scene_to_file(next_scene_path) 
