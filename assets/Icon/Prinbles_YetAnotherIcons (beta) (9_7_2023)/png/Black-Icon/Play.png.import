@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://2ja72n8rfspe"
-path="res://.godot/imported/Play.png-4e5ed4c87d626b2059e711a8ce1117d9.ctex"
+path="res://.godot/imported/Play.png-3389433b264385a7bd5abc9b017013c3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/png/Black-Icon/Play.png"
-dest_files=["res://.godot/imported/Play.png-4e5ed4c87d626b2059e711a8ce1117d9.ctex"]
+source_file="res://assets/Icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/png/Black-Icon/Play.png"
+dest_files=["res://.godot/imported/Play.png-3389433b264385a7bd5abc9b017013c3.ctex"]
 
 [params]
 

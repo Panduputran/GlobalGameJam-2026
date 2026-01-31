@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://sxd5chbbcca0"
-path="res://.godot/imported/SolidArrow-Left.svg-7fc5df87f9df3756ceb8ea4e54d2769f.ctex"
+path="res://.godot/imported/SolidArrow-Left.svg-9687792d9890158d4f73887b797c9aab.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/svg/Black-Icon/SolidArrow-Left.svg"
-dest_files=["res://.godot/imported/SolidArrow-Left.svg-7fc5df87f9df3756ceb8ea4e54d2769f.ctex"]
+source_file="res://assets/Icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/svg/Black-Icon/SolidArrow-Left.svg"
+dest_files=["res://.godot/imported/SolidArrow-Left.svg-9687792d9890158d4f73887b797c9aab.ctex"]
 
 [params]
 

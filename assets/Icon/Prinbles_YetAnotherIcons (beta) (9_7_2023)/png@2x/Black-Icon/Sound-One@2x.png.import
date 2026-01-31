@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dalj5tm331176"
-path="res://.godot/imported/Sound-One@2x.png-f89fd587847662180a4cacbc7a6a0965.ctex"
+path="res://.godot/imported/Sound-One@2x.png-dd67ae344ed09fa78bf72891e4088899.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/png@2x/Black-Icon/Sound-One@2x.png"
-dest_files=["res://.godot/imported/Sound-One@2x.png-f89fd587847662180a4cacbc7a6a0965.ctex"]
+source_file="res://assets/Icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/png@2x/Black-Icon/Sound-One@2x.png"
+dest_files=["res://.godot/imported/Sound-One@2x.png-dd67ae344ed09fa78bf72891e4088899.ctex"]
 
 [params]
 

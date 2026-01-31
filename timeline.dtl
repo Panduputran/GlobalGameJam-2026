@@ -1,0 +1,4 @@
+Intro
+join MC right [animation="Slide From Right"]
+MC: Hi, im the Mc
+update MC right [animation="Tada" repeat_forever="true"]
