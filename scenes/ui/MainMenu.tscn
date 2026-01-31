@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://bnnt4bd3mk1cl" path="res://script/MainMenu.gd" id="1_iwbf0"]
 [ext_resource type="Texture2D" uid="uid://bghchlpicaayk" path="res://assets/background/Background1.jpeg" id="1_vjtqc"]
-[ext_resource type="PackedScene" uid="uid://cqr6upd3nkpb4" path="res://scenes/ui/Fade_Transition.tscn" id="2_6jbdy"]
+[ext_resource type="PackedScene" path="res://scenes/ui/Fade_Transition.tscn" id="2_6jbdy"]
 [ext_resource type="Texture2D" uid="uid://ccxc76q1wxpqg" path="res://assets/images/StartMenuBG/ezgif-frame-001.jpg" id="3_tncdp"]
 [ext_resource type="Texture2D" uid="uid://duu35w2nctlsr" path="res://assets/images/StartMenuBG/ezgif-frame-002.jpg" id="4_58164"]
 [ext_resource type="Texture2D" uid="uid://dddeah75myonk" path="res://assets/images/StartMenuBG/ezgif-frame-003.jpg" id="5_tnk3v"]
@@ -332,10 +332,10 @@ texture = ExtResource("1_vjtqc")
 expand_mode = 1
 
 [node name="StartMenu" type="AnimatedSprite2D" parent="."]
-position = Vector2(574.92, 323.33002)
-scale = Vector2(0.59938884, 0.59938884)
+position = Vector2(649, 365.00003)
+scale = Vector2(0.6765555, 0.6765555)
 sprite_frames = SubResource("SpriteFrames_iwbf0")
-frame_progress = 0.31881306
+frame_progress = 0.81171423
 
 [node name="Start" type="Button" parent="."]
 layout_mode = 1

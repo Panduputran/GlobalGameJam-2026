@@ -25,10 +25,16 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 
 [dialogic]
 
-directories/dch_directory={}
-directories/dtl_directory={}
+directories/dch_directory={
+"character": "res://characther/character.dch"
+}
+directories/dtl_directory={
+"timeline1": "res://timeline/timeline1.dtl"
+}
 layout/style_directory={}
 glossary/default_case_sensitive=true
+layout/style_list=[]
+layout/default_style=""
 
 [display]
 
