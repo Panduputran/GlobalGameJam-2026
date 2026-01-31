@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cxewv7r6swwqd"
-path="res://.godot/imported/Exclamation@2x.png-71e753cfb9a8791098864025a898c4b5.ctex"
+path="res://.godot/imported/Exclamation@2x.png-e610b28db8dc022103dc2844368c6a1a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/png@2x/White-Icon/Exclamation@2x.png"
-dest_files=["res://.godot/imported/Exclamation@2x.png-71e753cfb9a8791098864025a898c4b5.ctex"]
+source_file="res://assets/Icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/png@2x/White-Icon/Exclamation@2x.png"
+dest_files=["res://.godot/imported/Exclamation@2x.png-e610b28db8dc022103dc2844368c6a1a.ctex"]
 
 [params]
 
