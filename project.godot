@@ -26,16 +26,22 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 [dialogic]
 
 directories/dch_directory={
-"character": "res://characther/character.dch"
+"Aria": "res://timeline/Aria.dch",
+"Kenzie": "res://timeline/Kenzie.dch",
+"Pak Indra": "res://timeline/Pak Indra.dch",
+"Raana": "res://timeline/Raana.dch",
+"mc": "res://timeline/mc.dch"
 }
 directories/dtl_directory={
 "timeline1": "res://timeline/timeline1.dtl"
 }
 layout/style_directory={}
 glossary/default_case_sensitive=true
-layout/style_list=[]
-layout/default_style=""
-variables={}
+layout/style_list=["res://styles/Default.tres"]
+layout/default_style="res://styles/Default.tres"
+variables={
+"player_name": ""
+}
 extensions_folder="res://addons/dialogic_additions"
 text/letter_speed=0.01
 text/initial_text_reveal_skippable=true

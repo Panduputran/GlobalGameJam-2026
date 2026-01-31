@@ -1,0 +1,51 @@
+[gd_scene load_steps=7 format=3 uid="uid://dumymhn86u3ug"]
+
+[ext_resource type="Texture2D" uid="uid://qp0pu7oj7u0n" path="res://assets/cards/Card Option Hijau.png" id="1_m273a"]
+[ext_resource type="Texture2D" uid="uid://c60r2313tbis0" path="res://assets/cards/Card Option Kuning.png" id="2_361bm"]
+[ext_resource type="Texture2D" uid="uid://cbo37mwgdlgj1" path="res://assets/cards/Hover (1).png" id="2_h3ht7"]
+[ext_resource type="Texture2D" uid="uid://c65bhbnfkpxda" path="res://assets/cards/Card Option Merah.png" id="3_h3ht7"]
+[ext_resource type="Texture2D" uid="uid://b3ywqgs38oygo" path="res://assets/cards/Hover (3).png" id="4_blgqs"]
+[ext_resource type="Texture2D" uid="uid://c2k6i363hl13n" path="res://assets/cards/Hover (2).png" id="6_k8o0j"]
+
+[node name="Cards" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureButton" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 276.0
+offset_top = 120.0
+offset_right = 451.0
+offset_bottom = 429.26926
+texture_normal = ExtResource("1_m273a")
+texture_pressed = ExtResource("2_h3ht7")
+texture_hover = ExtResource("2_h3ht7")
+ignore_texture_size = true
+stretch_mode = 6
+
+[node name="TextureButton2" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 484.0
+offset_top = 120.0
+offset_right = 659.0
+offset_bottom = 429.26926
+texture_normal = ExtResource("2_361bm")
+texture_pressed = ExtResource("4_blgqs")
+texture_hover = ExtResource("4_blgqs")
+ignore_texture_size = true
+stretch_mode = 6
+
+[node name="TextureButton3" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 690.0
+offset_top = 120.0
+offset_right = 865.0
+offset_bottom = 429.26926
+texture_normal = ExtResource("3_h3ht7")
+texture_pressed = ExtResource("6_k8o0j")
+ignore_texture_size = true
+stretch_mode = 6
