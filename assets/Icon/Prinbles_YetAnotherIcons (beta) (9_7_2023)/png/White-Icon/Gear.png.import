@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c78afh1ka1lfu"
-path="res://.godot/imported/Gear.png-0f53842e0a3d40050364b078fd5ab947.ctex"
+path="res://.godot/imported/Gear.png-4ab88719faf5394acaa8449aeb388b98.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/png/White-Icon/Gear.png"
-dest_files=["res://.godot/imported/Gear.png-0f53842e0a3d40050364b078fd5ab947.ctex"]
+source_file="res://assets/Icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/png/White-Icon/Gear.png"
+dest_files=["res://.godot/imported/Gear.png-4ab88719faf5394acaa8449aeb388b98.ctex"]
 
 [params]
 

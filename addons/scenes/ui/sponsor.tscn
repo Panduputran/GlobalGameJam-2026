@@ -1,0 +1,55 @@
+[gd_scene load_steps=3 format=3 uid="uid://dql3teyme30si"]
+
+[ext_resource type="Script" uid="uid://dvd6b8xcxrtq" path="res://script/UI/sponsor.gd" id="1_1qach"]
+[ext_resource type="Texture2D" uid="uid://cntehbydbbeyc" path="res://assets/images/sponsored2 cropped.jpeg" id="2_cg0hr"]
+
+[node name="Sponsor" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -5.0
+offset_top = 2.0
+offset_right = -5.0
+offset_bottom = 2.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_1qach")
+
+[node name="SponsoredButton" type="Button" parent="."]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Overlay" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.27752784, 0.27752766, 0.27752778, 1)
+
+[node name="SponsoredImage" type="TextureRect" parent="Overlay"]
+light_mask = 513
+visibility_layer = 513
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 77.0
+offset_top = 87.0
+offset_right = -283.0
+offset_bottom = -86.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_cg0hr")
+expand_mode = 1
+
+[node name="BackButton" type="Button" parent="Overlay/SponsoredImage"]
+layout_mode = 0
+offset_left = 917.0
+offset_top = 436.0
+offset_right = 1003.0
+offset_bottom = 492.0
+text = "BACK"
