@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://csee1aa6p5qh5"
-path="res://.godot/imported/MediumArrow-Right.svg-fac8ac0bed86bed185ae02c938904e83.ctex"
+path="res://.godot/imported/MediumArrow-Right.svg-560edf67605765f3c6502efb855d9582.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/svg/White-Icon/MediumArrow-Right.svg"
-dest_files=["res://.godot/imported/MediumArrow-Right.svg-fac8ac0bed86bed185ae02c938904e83.ctex"]
+source_file="res://assets/Icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/svg/White-Icon/MediumArrow-Right.svg"
+dest_files=["res://.godot/imported/MediumArrow-Right.svg-560edf67605765f3c6502efb855d9582.ctex"]
 
 [params]
 

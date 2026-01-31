@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://hann0gkgfb4h"
-path="res://.godot/imported/Thumb-Up@2x.png-0e980f65d2095c12b9415d4430176a83.ctex"
+path="res://.godot/imported/Thumb-Up@2x.png-f811383c75061c3f9a1e5a34edfea5a4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/png@2x/White-Icon/Thumb-Up@2x.png"
-dest_files=["res://.godot/imported/Thumb-Up@2x.png-0e980f65d2095c12b9415d4430176a83.ctex"]
+source_file="res://assets/Icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/png@2x/White-Icon/Thumb-Up@2x.png"
+dest_files=["res://.godot/imported/Thumb-Up@2x.png-f811383c75061c3f9a1e5a34edfea5a4.ctex"]
 
 [params]
 
