@@ -2,7 +2,7 @@
 "@path": "res://addons/dialogic/Resources/character.gd",
 "@subpath": NodePath(""),
 &"_translation_id": "",
-&"color": Color(1, 0.6796875, 0.6796875, 1),
+&"color": Color(0.7543335, 0.55078125, 1, 1),
 &"custom_info": {
 "prefix": "",
 "sound_mood_default": "",
@@ -12,7 +12,7 @@
 },
 &"default_portrait": "",
 &"description": "",
-&"display_name": "Character 1",
+&"display_name": "Aria",
 &"mirror": false,
 &"nicknames": [""],
 &"offset": Vector2(0, 0),

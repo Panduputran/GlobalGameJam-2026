@@ -2,7 +2,7 @@
 "@path": "res://addons/dialogic/Resources/character.gd",
 "@subpath": NodePath(""),
 &"_translation_id": "",
-&"color": Color(1, 0.89541626, 0.41796875, 1),
+&"color": Color(0.79296875, 0.631897, 0.68474865, 1),
 &"custom_info": {
 "prefix": "",
 "sound_mood_default": "",
@@ -12,14 +12,14 @@
 },
 &"default_portrait": "New portrait",
 &"description": "",
-&"display_name": "{player_name}",
+&"display_name": "Raana",
 &"mirror": false,
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
 &"portraits": {
 "New portrait": {
 "export_overrides": {
-"image": "\"res://icon.svg\""
+"image": "\"res://assets/images/Character/WhatsApp Image 2026-01-31 at 07.23.55.jpeg\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),

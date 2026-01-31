@@ -4,7 +4,7 @@
 &"_translation_id": "",
 &"color": Color(1, 1, 1, 1),
 &"custom_info": {
-"prefix": "",
+"prefix": "Pak",
 "sound_mood_default": "",
 "sound_moods": {},
 "style": "",
@@ -12,7 +12,7 @@
 },
 &"default_portrait": "",
 &"description": "",
-&"display_name": "Guru",
+&"display_name": "Indra",
 &"mirror": false,
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
