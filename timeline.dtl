@@ -1,4 +1,12 @@
-Intro
+i, am....
+[text_input text="Who are you?:" var="player_name"]
 join MC right [animation="Slide From Right"]
-MC: Hi, im the Mc
+MC: my name is {player_name}
 update MC right [animation="Tada" repeat_forever="true"]
+- A
+	update MC [animation="Shake X" length="2.0"]
+	# 
+	MC: AAh
+- B
+	join character1 center
+	character1: Yahoo
