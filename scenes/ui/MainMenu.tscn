@@ -1,8 +1,7 @@
-[gd_scene load_steps=80 format=3 uid="uid://dj4gk7ubgb6y3"]
+[gd_scene load_steps=79 format=3 uid="uid://dj4gk7ubgb6y3"]
 
 [ext_resource type="Script" uid="uid://bnnt4bd3mk1cl" path="res://script/MainMenu.gd" id="1_iwbf0"]
-[ext_resource type="Texture2D" uid="uid://bghchlpicaayk" path="res://assets/background/Background1.jpeg" id="1_vjtqc"]
-[ext_resource type="PackedScene" path="res://scenes/ui/Fade_Transition.tscn" id="2_6jbdy"]
+[ext_resource type="PackedScene" uid="uid://fxyw8hd8ds5q" path="res://scenes/ui/Fade_Transition.tscn" id="2_6jbdy"]
 [ext_resource type="Texture2D" uid="uid://ccxc76q1wxpqg" path="res://assets/images/StartMenuBG/ezgif-frame-001.jpg" id="3_tncdp"]
 [ext_resource type="Texture2D" uid="uid://duu35w2nctlsr" path="res://assets/images/StartMenuBG/ezgif-frame-002.jpg" id="4_58164"]
 [ext_resource type="Texture2D" uid="uid://dddeah75myonk" path="res://assets/images/StartMenuBG/ezgif-frame-003.jpg" id="5_tnk3v"]
@@ -321,19 +320,9 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_iwbf0")
 
-[node name="TextureRect" type="TextureRect" parent="."]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-texture = ExtResource("1_vjtqc")
-expand_mode = 1
-
 [node name="StartMenu" type="AnimatedSprite2D" parent="."]
-position = Vector2(649, 365.00003)
-scale = Vector2(0.6765555, 0.6765555)
+position = Vector2(577.5867, 324.83005)
+scale = Vector2(0.60216665, 0.60216665)
 sprite_frames = SubResource("SpriteFrames_iwbf0")
 frame_progress = 0.81171423
 

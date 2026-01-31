@@ -1,2 +1,4 @@
 - i'm fine
+	character: <Empty Text Event>
 - i'm tired | [if {} == ""]
+join character center
