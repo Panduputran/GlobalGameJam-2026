@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bbwl80h6r3np5"
-path="res://.godot/imported/Exit.png-74a295e9fcf118754147c84e047cbdf4.ctex"
+path="res://.godot/imported/Exit.png-146ece4aafa326c558ab84e08f5d1ecc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/png/Black-Icon/Exit.png"
-dest_files=["res://.godot/imported/Exit.png-74a295e9fcf118754147c84e047cbdf4.ctex"]
+source_file="res://assets/icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/png/Black-Icon/Exit.png"
+dest_files=["res://.godot/imported/Exit.png-146ece4aafa326c558ab84e08f5d1ecc.ctex"]
 
 [params]
 

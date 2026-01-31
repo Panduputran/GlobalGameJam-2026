@@ -1,0 +1,43 @@
+[gd_scene load_steps=6 format=3 uid="uid://cmsrjgkpafy3f"]
+
+[ext_resource type="Script" uid="uid://ij0qm2ew6plv" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.gd" id="1_ljify"]
+[ext_resource type="Script" uid="uid://b1stj4ljd2vo7" path="res://addons/dialogic/Modules/Choice/node_button_sound.gd" id="2_dajp5"]
+[ext_resource type="AudioStream" uid="uid://b6c1p14bc20p1" path="res://addons/dialogic/Example Assets/sound-effects/typing1.wav" id="3_xouos"]
+[ext_resource type="AudioStream" uid="uid://c2viukvbub6v6" path="res://addons/dialogic/Example Assets/sound-effects/typing4.wav" id="4_bglkp"]
+
+[sub_resource type="AudioStream" id="AudioStream_pe27w"]
+
+[node name="VN_ChoiceLayer" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1_ljify")
+boxes_stylebox_normal = "uid://wrp8f7ard3uu"
+
+[node name="Choices" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -41.0
+offset_top = -47.0
+offset_right = 42.0
+offset_bottom = 47.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+alignment = 1
+metadata/_edit_layout_mode = 1
+
+[node name="DialogicNode_ButtonSound" type="AudioStreamPlayer" parent="Choices"]
+unique_name_in_owner = true
+script = ExtResource("2_dajp5")
+sound_pressed = ExtResource("3_xouos")
+sound_hover = ExtResource("4_bglkp")
+sound_focus = SubResource("AudioStream_pe27w")

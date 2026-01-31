@@ -7,7 +7,7 @@
 "prefix": "",
 "sound_mood_default": "",
 "sound_moods": {},
-"style": "",
+"style": "Default",
 "suffix": ""
 },
 &"default_portrait": "Neutral",
@@ -19,7 +19,7 @@
 &"portraits": {
 "Neutral": {
 "export_overrides": {
-"image": "\"res://icon.svg\""
+"image": "\"res://character/Mc without face.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),

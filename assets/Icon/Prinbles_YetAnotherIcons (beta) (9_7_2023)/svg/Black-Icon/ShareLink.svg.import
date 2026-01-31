@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkf4fa2eoqayt"
-path="res://.godot/imported/ShareLink.svg-685aeb29d973dc41f2b0064156f00ae7.ctex"
+path="res://.godot/imported/ShareLink.svg-05845c5a5a9cf21a600aac379766bca8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/svg/Black-Icon/ShareLink.svg"
-dest_files=["res://.godot/imported/ShareLink.svg-685aeb29d973dc41f2b0064156f00ae7.ctex"]
+source_file="res://assets/icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/svg/Black-Icon/ShareLink.svg"
+dest_files=["res://.godot/imported/ShareLink.svg-05845c5a5a9cf21a600aac379766bca8.ctex"]
 
 [params]
 

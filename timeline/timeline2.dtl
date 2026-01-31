@@ -1,0 +1,29 @@
+[background arg="res://assets/background/Background2.jpeg" fade="0.0"]
+join Raana left
+Raana: Akhirnya... masuk kelas juga…
+Raana: rasanya masih asing ya, hmmmmmmmm....
+"No One": haii kamu!
+join Aria right
+Aria: Kamu murid baru, ya?
+Raana: .............
+Aria: kenalinn nama aku aria
+Aria: Kamu kelihatan agak bingung
+leave --All--
+join Raana center
+join Option (Option2) center
+- A
+	Aria: yapp, salam kenalll ya Raana
+	Aria: Kalau mau, nanti istirahat kita duduk bareng aja
+	[style name="Options 3"]
+	join Option (Option3) center
+	- A
+		Aria: Syukurlah.. nantii aku samperinn kamu ya
+	- B
+		Aria: …oh, gitu?
+	- C
+		leave --All--
+		join Aria center
+		Aria: ..........
+		Maaf, Aku pikir kamu butuh teman, Aku gak akan ganggu lagi
+		[signal arg="game_over"]
+- B

@@ -1,5 +1,15 @@
-join "Pak Indra" left
-"Pak Indra": raana, kamu bs bntu sy?
+[background arg="res://assets/background/Background1.jpeg" fade="0.0"]
+"No One": Sekolah baru, Kelas baru,dan orang-orang baru.
+"No One": Semua suasana ini, membuat diriku terasa anehhhh.....
+join Raana center
+Raana: fiuhhh.. semoga hari ini bisa berjalan normal
+Raana: sekolah baru... wajah baru... 	(aku harus memilih... bagaimana cara aku disini)
+join Option (Option1) center
 - A
-	- 
+	Raana: Aku gak harus ngelakuin apa-apa.
+	yaudahhh.......
 - B
+	Raana: Oke… harus pura-pura gak gugup
+	Raana: aku harus bisa supaya diterima sama mereka
+Raana: aku pasti bisa
+[signal arg="Option1"]

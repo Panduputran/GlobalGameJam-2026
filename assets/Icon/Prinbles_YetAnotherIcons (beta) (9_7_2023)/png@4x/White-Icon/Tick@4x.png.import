@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cen50eqyk261"
-path="res://.godot/imported/Tick@4x.png-ccd27d416e5ede7c567ab5b5b5963676.ctex"
+path="res://.godot/imported/Tick@4x.png-9812966fbba85d650c2b1eb336dc66d0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/png@4x/White-Icon/Tick@4x.png"
-dest_files=["res://.godot/imported/Tick@4x.png-ccd27d416e5ede7c567ab5b5b5963676.ctex"]
+source_file="res://assets/icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/png@4x/White-Icon/Tick@4x.png"
+dest_files=["res://.godot/imported/Tick@4x.png-9812966fbba85d650c2b1eb336dc66d0.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dyto2wm1cbv3a"
-path="res://.godot/imported/Sound-None@2x.png-3b5e73c3ab571f5d3cd6b13d428c01e8.ctex"
+path="res://.godot/imported/Sound-None@2x.png-77ae450051648e9f086ab8762720442e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/png@2x/White-Icon/Sound-None@2x.png"
-dest_files=["res://.godot/imported/Sound-None@2x.png-3b5e73c3ab571f5d3cd6b13d428c01e8.ctex"]
+source_file="res://assets/icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/png@2x/White-Icon/Sound-None@2x.png"
+dest_files=["res://.godot/imported/Sound-None@2x.png-77ae450051648e9f086ab8762720442e.ctex"]
 
 [params]
 

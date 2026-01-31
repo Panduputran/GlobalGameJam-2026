@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dxej18sdephy0"
-path="res://.godot/imported/Levels@4x.png-c2c6bc016189358292aa4e417225a795.ctex"
+path="res://.godot/imported/Levels@4x.png-f514074bac0964d1061d97a83abf7c1f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/png@4x/White-Icon/Levels@4x.png"
-dest_files=["res://.godot/imported/Levels@4x.png-c2c6bc016189358292aa4e417225a795.ctex"]
+source_file="res://assets/icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/png@4x/White-Icon/Levels@4x.png"
+dest_files=["res://.godot/imported/Levels@4x.png-f514074bac0964d1061d97a83abf7c1f.ctex"]
 
 [params]
 

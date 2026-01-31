@@ -28,16 +28,24 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 directories/dch_directory={
 "Aria": "res://timeline/Aria.dch",
 "Kenzie": "res://timeline/Kenzie.dch",
+"No One": "res://character/No One.dch",
+"Option": "res://assets/background/Option.dch",
+"Pak Bahlil": "res://character/Pak Bahlil.dch",
 "Pak Indra": "res://timeline/Pak Indra.dch",
-"Raana": "res://timeline/Raana.dch",
-"mc": "res://timeline/mc.dch"
+"Raana": "res://timeline/Raana.dch"
 }
 directories/dtl_directory={
-"timeline1": "res://timeline/timeline1.dtl"
+"timeline1": "res://timeline/timeline1.dtl",
+"timeline2": "res://timeline/timeline2.dtl",
+"timelinetesting": "res://timeline/timelinetesting.dtl"
 }
-layout/style_directory={}
+layout/style_directory={
+"": "res://styles/Default.tres",
+"Default": "res://styles/Default.tres",
+"Options 3": "res://styles/Options 3.tres"
+}
 glossary/default_case_sensitive=true
-layout/style_list=["res://styles/Default.tres"]
+layout/style_list=["res://styles/Default.tres", "res://styles/Options 3.tres"]
 layout/default_style="res://styles/Default.tres"
 variables={
 "player_name": ""

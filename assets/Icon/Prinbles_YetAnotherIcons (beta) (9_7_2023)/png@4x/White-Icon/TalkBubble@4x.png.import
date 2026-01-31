@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bmkwqj6poejne"
-path="res://.godot/imported/TalkBubble@4x.png-95fb9c473e68d6f500c9881ef5050e0b.ctex"
+path="res://.godot/imported/TalkBubble@4x.png-f1563666a77e51349f9c3ef0bb4c44b6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/png@4x/White-Icon/TalkBubble@4x.png"
-dest_files=["res://.godot/imported/TalkBubble@4x.png-95fb9c473e68d6f500c9881ef5050e0b.ctex"]
+source_file="res://assets/icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/png@4x/White-Icon/TalkBubble@4x.png"
+dest_files=["res://.godot/imported/TalkBubble@4x.png-f1563666a77e51349f9c3ef0bb4c44b6.ctex"]
 
 [params]
 

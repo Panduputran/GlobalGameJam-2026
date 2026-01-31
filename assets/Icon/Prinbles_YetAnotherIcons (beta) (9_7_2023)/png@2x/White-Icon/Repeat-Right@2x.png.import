@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://4vkj8hy7okel"
-path="res://.godot/imported/Repeat-Right@2x.png-8b7d8c59c010169949b9dcff32190ed5.ctex"
+path="res://.godot/imported/Repeat-Right@2x.png-049363a33d596c3aec4d77f533d297be.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/png@2x/White-Icon/Repeat-Right@2x.png"
-dest_files=["res://.godot/imported/Repeat-Right@2x.png-8b7d8c59c010169949b9dcff32190ed5.ctex"]
+source_file="res://assets/icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/png@2x/White-Icon/Repeat-Right@2x.png"
+dest_files=["res://.godot/imported/Repeat-Right@2x.png-049363a33d596c3aec4d77f533d297be.ctex"]
 
 [params]
 

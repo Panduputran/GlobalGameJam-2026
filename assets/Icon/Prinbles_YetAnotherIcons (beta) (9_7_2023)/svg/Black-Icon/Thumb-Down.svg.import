@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cnetvl0vf3o8a"
-path="res://.godot/imported/Thumb-Down.svg-94953c8e31c1eceea04322841ab2c8c9.ctex"
+path="res://.godot/imported/Thumb-Down.svg-6d245bf624d88f329df8bbc530815a27.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/svg/Black-Icon/Thumb-Down.svg"
-dest_files=["res://.godot/imported/Thumb-Down.svg-94953c8e31c1eceea04322841ab2c8c9.ctex"]
+source_file="res://assets/icon/Prinbles_YetAnotherIcons (beta) (9_7_2023)/svg/Black-Icon/Thumb-Down.svg"
+dest_files=["res://.godot/imported/Thumb-Down.svg-6d245bf624d88f329df8bbc530815a27.ctex"]
 
 [params]
 
