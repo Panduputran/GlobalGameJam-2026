@@ -1,0 +1,51 @@
+[gd_scene load_steps=8 format=3 uid="uid://cnthdoidp0r6w"]
+
+[ext_resource type="Script" uid="uid://cpeamgefqc4p2" path="res://scenes/player/chibi_raana.gd" id="1_k2ihm"]
+[ext_resource type="Texture2D" uid="uid://u1cdcf2ndtyy" path="res://assets/player/Mc idle 1.png" id="1_vaf01"]
+[ext_resource type="Texture2D" uid="uid://cquclw5fqpadn" path="res://assets/player/Mc idle 2.png" id="2_gytjj"]
+[ext_resource type="Texture2D" uid="uid://8rqcfre0ml8y" path="res://assets/player/Mc walk 1.png" id="3_mwx2n"]
+[ext_resource type="Texture2D" uid="uid://bx48ikh11j8mj" path="res://assets/player/Mc walk 2.png" id="4_k2ihm"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mwx2n"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_vaf01")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_gytjj")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_mwx2n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_k2ihm")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 4.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_mwx2n"]
+radius = 22.0
+height = 86.0
+
+[node name="ChibiRaana" type="CharacterBody2D"]
+script = ExtResource("1_k2ihm")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(529.00006, 254)
+scale = Vector2(0.050156258, 0.05015626)
+sprite_frames = SubResource("SpriteFrames_mwx2n")
+animation = &"idle"
+autoplay = "idle"
+frame_progress = 0.28081536
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(514, 252)
+shape = SubResource("CapsuleShape2D_mwx2n")

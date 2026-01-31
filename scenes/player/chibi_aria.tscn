@@ -1,0 +1,49 @@
+[gd_scene load_steps=7 format=3 uid="uid://vbj47t8kfl3x"]
+
+[ext_resource type="Texture2D" uid="uid://drvfi4rvbam3c" path="res://assets/player/Aria idle 1.png" id="1_8qeit"]
+[ext_resource type="Texture2D" uid="uid://cm50y2vgwjak" path="res://assets/player/Aria idle 2.png" id="2_b5k00"]
+[ext_resource type="Texture2D" uid="uid://bf8pnewr22rce" path="res://assets/player/Aria walk 1.png" id="3_8qeit"]
+[ext_resource type="Texture2D" uid="uid://d00is0c2a45p2" path="res://assets/player/Aria walk 2.png" id="4_b5k00"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mwx2n"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_8qeit")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_b5k00")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_8qeit")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_b5k00")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 4.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_mwx2n"]
+radius = 33.0
+height = 118.0
+
+[node name="ChibiRaana" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(473.00003, 252.00002)
+scale = Vector2(0.050156258, 0.05015626)
+sprite_frames = SubResource("SpriteFrames_mwx2n")
+animation = &"idle"
+autoplay = "idle"
+frame_progress = 0.7625145
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(497, 251)
+shape = SubResource("CapsuleShape2D_mwx2n")
