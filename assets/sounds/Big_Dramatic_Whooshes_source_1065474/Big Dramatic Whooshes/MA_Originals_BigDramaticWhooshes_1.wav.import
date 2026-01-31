@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cmpufkl8sl2lc"
+path="res://.godot/imported/MA_Originals_BigDramaticWhooshes_1.wav-54347cf93a7a5eaa15d9d02c50a21f80.sample"
+
+[deps]
+
+source_file="res://assets/sounds/Big_Dramatic_Whooshes_source_1065474/Big Dramatic Whooshes/MA_Originals_BigDramaticWhooshes_1.wav"
+dest_files=["res://.godot/imported/MA_Originals_BigDramaticWhooshes_1.wav-54347cf93a7a5eaa15d9d02c50a21f80.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

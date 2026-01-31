@@ -33,7 +33,7 @@ animations = [{
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_mwx2n"]
 radius = 22.0
-height = 86.0
+height = 84.0
 
 [node name="ChibiRaana" type="CharacterBody2D"]
 script = ExtResource("1_k2ihm")
@@ -44,8 +44,8 @@ scale = Vector2(0.050156258, 0.05015626)
 sprite_frames = SubResource("SpriteFrames_mwx2n")
 animation = &"idle"
 autoplay = "idle"
-frame_progress = 0.28081536
+frame_progress = 0.41200835
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(514, 252)
+position = Vector2(519, 266)
 shape = SubResource("CapsuleShape2D_mwx2n")

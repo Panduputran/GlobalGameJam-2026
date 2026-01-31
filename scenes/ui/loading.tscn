@@ -1,6 +1,26 @@
-[gd_scene load_steps=6 format=3 uid="uid://bmdu0rsob867l"]
+[gd_scene load_steps=10 format=3 uid="uid://bmdu0rsob867l"]
 
 [ext_resource type="Script" uid="uid://s32j5doer2qa" path="res://script/loading.gd" id="1_np37y"]
+[ext_resource type="Texture2D" uid="uid://dagvjpvh3smn4" path="res://assets/ui/16.png" id="2_sjr32"]
+[ext_resource type="Texture2D" uid="uid://ky2kc46r3di" path="res://assets/ui/17.png" id="3_gbjog"]
+[ext_resource type="Texture2D" uid="uid://cderpl72551t6" path="res://assets/ui/18.png" id="4_2b8us"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_vky50"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_sjr32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_gbjog")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_2b8us")
+}],
+"loop": true,
+"name": &"Loading",
+"speed": 1.0
+}]
 
 [sub_resource type="Animation" id="Animation_4ftgq"]
 length = 0.001
@@ -73,40 +93,8 @@ offset_right = 1192.0
 offset_bottom = 686.0
 color = Color(0, 0, 0, 1)
 
-[node name="Label" type="Label" parent="."]
-layout_mode = 1
-anchors_preset = 3
-anchor_left = 1.0
-anchor_top = 1.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = -124.0
-offset_top = -43.0
-offset_right = -25.0
-offset_bottom = -15.0
-grow_horizontal = 0
-grow_vertical = 0
-theme_override_font_sizes/font_size = 20
-text = "Loading...."
-
-[node name="count" type="Label" parent="."]
-visible = false
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -66.0
-offset_top = -40.0
-offset_right = 66.0
-offset_bottom = 9.0
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_font_sizes/font_size = 30
-horizontal_alignment = 1
-
 [node name="ColorRect2" type="ColorRect" parent="."]
+visible = false
 layout_mode = 0
 offset_left = -24.0
 offset_top = -24.0
@@ -114,8 +102,23 @@ offset_right = 1188.0
 offset_bottom = 681.0
 color = Color(0, 0, 0, 1)
 
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(578.2222, 325.75)
+scale = Vector2(0.30115741, 0.30115741)
+sprite_frames = SubResource("SpriteFrames_vky50")
+animation = &"Loading"
+autoplay = "Loading"
+frame_progress = 0.86156446
+
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
 &"": SubResource("AnimationLibrary_l55ap")
 }
 autoplay = "fade_out"
+
+[node name="count" type="Label" parent="."]
+layout_mode = 0
+offset_left = 1098.0
+offset_top = 612.0
+offset_right = 1138.0
+offset_bottom = 635.0

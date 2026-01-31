@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://btolxxm5ln855"
+path="res://.godot/imported/keyboard-typing-sound-effect-335503.mp3-e66f39cc57f5538fcb0e42865d86e1d1.mp3str"
+
+[deps]
+
+source_file="res://assets/sounds/mouse and keyboard typing/keyboard-typing-sound-effect-335503.mp3"
+dest_files=["res://.godot/imported/keyboard-typing-sound-effect-335503.mp3-e66f39cc57f5538fcb0e42865d86e1d1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

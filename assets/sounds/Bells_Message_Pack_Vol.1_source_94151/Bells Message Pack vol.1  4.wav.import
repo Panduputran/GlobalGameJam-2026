@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://do7fl4yu0ufa7"
+path="res://.godot/imported/Bells Message Pack vol.1  4.wav-7c2be1ff84a93c8fa78572fb69a97619.sample"
+
+[deps]
+
+source_file="res://assets/sounds/Bells_Message_Pack_Vol.1_source_94151/Bells Message Pack vol.1  4.wav"
+dest_files=["res://.godot/imported/Bells Message Pack vol.1  4.wav-7c2be1ff84a93c8fa78572fb69a97619.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

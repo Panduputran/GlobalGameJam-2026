@@ -127,4 +127,4 @@ shape = SubResource("RectangleShape2D_cn2eb")
 position = Vector2(553, 195)
 
 [node name="ChibiAria" parent="." instance=ExtResource("3_cn2eb")]
-position = Vector2(-283, 243)
+position = Vector2(-369, 261)

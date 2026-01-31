@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bbi55y2kjf1j5"
+path="res://.godot/imported/Rain and Wind 3.wav-7d5afd12f55b6ecba79338188e21b262.sample"
+
+[deps]
+
+source_file="res://assets/sounds/Rain_And_Wind_source_171591/Rain and Wind 3.wav"
+dest_files=["res://.godot/imported/Rain and Wind 3.wav-7d5afd12f55b6ecba79338188e21b262.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

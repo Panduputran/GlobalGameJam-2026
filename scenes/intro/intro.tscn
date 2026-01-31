@@ -1,4 +1,4 @@
-[gd_scene load_steps=304 format=3 uid="uid://djawv36hwx0m7"]
+[gd_scene load_steps=305 format=3 uid="uid://djawv36hwx0m7"]
 
 [ext_resource type="Script" uid="uid://bqqs2w480xfl3" path="res://script/ui/intro.gd" id="1_2jjbt"]
 [ext_resource type="Texture2D" uid="uid://dy0vvtrqic7ir" path="res://assets/images/LogoGGJ/ezgif-frame-001.jpg" id="2_bc08m"]
@@ -301,6 +301,7 @@
 [ext_resource type="Texture2D" uid="uid://kslhv6u0qyit" path="res://assets/images/LogoSponsor/ezgif-frame-198.jpg" id="299_5cfpk"]
 [ext_resource type="Texture2D" uid="uid://5kokptcwf6bj" path="res://assets/images/LogoSponsor/ezgif-frame-199.jpg" id="300_wo5xe"]
 [ext_resource type="Texture2D" uid="uid://bji2uw6nykg4j" path="res://assets/images/LogoSponsor/ezgif-frame-200.jpg" id="301_yb0kv"]
+[ext_resource type="FontFile" uid="uid://bw5ovuucum1i7" path="res://assets/fonts/Pangolin-Regular.ttf" id="302_4aspe"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_m443m"]
 animations = [{
@@ -1255,5 +1256,6 @@ offset_bottom = 600.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("302_4aspe")
 theme_override_font_sizes/font_size = 25
 text = "Press \"Space\" To Skip"
