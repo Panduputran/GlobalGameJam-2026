@@ -1,0 +1,54 @@
+[background arg="res://assets/background/Background2.jpeg" fade="0.0"]
+(Suasana rame, murid lalu-lalang)
+join Aria right
+Aria: Kantin biasanya rame banget
+Aria: Tapi makan sendirian juga gak enak
+join Raana left
+Raana: …iya.
+Raana: (Kalau aku salah ngomong… aku bisa ngerusak semuanya)
+audio "res://assets/sounds/New/363470__taure__running_wood.wav"
+
+leave --All--
+Kenzo: woii—
+
+join Aria right
+join Raana left
+Aria: siapa itu?
+
+(suara orang berlari ke arah mereka)
+
+leave --All--
+Kenzo: haha.. Ini dia murid baru
+
+join Kenzo center
+Kenzo: hmmmm…
+
+leave Kenzo
+join Raana left
+Raana: ….
+
+join Kenzo right
+Kenzo: Oh ini murid yang katanya murid aneh itu ya?
+
+join Aria center
+Aria: Kenzo, jangan gitu
+
+Kenzo: Hah?
+Kenzo: aku cuman mau mastiin
+Kenzo: dia orang beneran atau orang-orangan
+
+leave Kenzo
+leave Aria
+
+Raana: ……
+Raana: (Tatapannya bikin gak nyaman)
+
+# PILIHAN PEMAIN
+- A
+	Raana: Cuma kebiasaan. Biar pikiranku rapi.
+
+- B
+	Raana: Hehe… hal kecil kok, gak penting.
+
+- C
+	Raana: Masalah buat kamu?

@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://bnehavpdkdi57"]
+[gd_scene load_steps=3 format=3 uid="uid://bnehavpdkdi57"]
 
 [ext_resource type="Script" uid="uid://cehutbjx5ccka" path="res://script/ui/cutscene_intro.gd" id="1_0y3nh"]
+[ext_resource type="VideoStream" uid="uid://3ge1wgtmmi5k" path="res://assets/Nama Game.ogv" id="2_jlcvb"]
 
 [node name="Cutscene Intro" type="Control"]
 layout_mode = 3
@@ -10,3 +11,13 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_0y3nh")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stream = ExtResource("2_jlcvb")
+autoplay = true

@@ -1,4 +1,4 @@
-[background arg="res://assets/background/Background2.jpeg" fade="0.0"]
+[background arg="res://assets/background/Background Kelas.png" fade="0.0"]
 join Raana left
 Raana: Akhirnya... masuk kelas juga…
 Raana: rasanya masih asing ya, hmmmmmmmm....
@@ -12,12 +12,23 @@ leave --All--
 join Raana center
 join Option (Option2) center
 - A
+	leave --All--
+	join Aria right
 	Aria: yapp, salam kenalll ya Raana
 	Aria: Kalau mau, nanti istirahat kita duduk bareng aja
+	leave Aria
 	[style name="Options 3"]
 	join Option (Option3) center
 	- A
 		Aria: Syukurlah.. nantii aku samperinn kamu ya
+		leave --All--
+		(Memasuki waktu istirahat)
+		audio "res://assets/sounds/Bells_Message_Pack_Vol.1_source_94151/Bells Message Pack vol.1  4.mp3"
+		join Aria right
+		Aria: Belnya udah bunyi, yukk ke kantinn
+		join Raana left
+		Raana: yuk.....
+		[signal arg="option2"]
 	- B
 		Aria: …oh, gitu?
 		Aria: Yaudah dehh, sampai ketemu lagi ya
@@ -25,6 +36,7 @@ join Option (Option2) center
 		leave --All--
 		join Aria center
 		Aria: ..........
-		Maaf, Aku pikir kamu butuh teman, Aku gak akan ganggu lagi
+		aku pikir kamu orang yang baik, dasar aneh!!!
 		[signal arg="game_over"]
 - B
+	Aria: Okedeh, aku harap kamu betah ya disini

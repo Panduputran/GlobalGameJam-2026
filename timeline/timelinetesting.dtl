@@ -1,4 +1,177 @@
+[background arg="res://assets/background/Background2.jpeg" fade="0.0"]
+(Suasana lorong, murid lalu-lalang)
+
+join Aria right
+join Raana left
+(Raana & Aria berjalan ke arah kantin.)
+audio "res://assets/sounds/New/363470__taure__running_wood.wav"
+(Suara orang berlari ke arah mereka)
+
+Kenzo: Eh—bentar.
+
+leave Aria
+leave Raana
+
+
+
+join Kenzo center
+
+
+Kenzo: Kok cepet amat jalannya.
+
+leave Kenzo
+
+join Aria right
+join Raana left
+Aria: Kita mau ke kantin.
+
+leave Aria
+leave Raana
+
+join Kenzo center
+Kenzo: Oh iya kelihatan.
+
+Kenzo: (ngelirik ke samping)
+Kenzo: Kamu anak baru ya?
+Kenzo: Keliatan.
+
+leave Kenzo
+
+join Raana left
+(Raana nunduk sedikit, genggam buku hariannya)
+
+leave Raana
+
+join Kenzo right
+(Kenzo melangkah setengah ke tengah lorong)
+
+Kenzo: Tadi di kelas…
+Kenzo: Serius deh.
+
+Kenzo: Kamu nulis terus itu ngapain?
+Kenzo: Catatan?
+Kenzo: Puisi?
+Kenzo: Atau… laporan rahasia? (ketawa kecil)
+
+leave Kenzo
+
+join Raana left
+Raana: ……
+
+leave Raana
+
+join Kenzo right
+(Kenzo menoleh ke arah Raana dengan prasangka aneh)
+
+leave Kenzo
+
+join Raana center
+Raana: ……
+Raana: (Aku harus jawab gimana?)
 [style name="Options 3"]
-- test
-- tes2
-- teasd
+join Option (Option 4) center
+- A
+	leave Option
+	Raana: Cuma kebiasaan. Biar pikiranku rapi.
+	leave Raana
+	
+	join Kenzo right
+	
+	Kenzo: Oh.
+	Kenzo: Rapi banget hidupnya
+	
+	leave Kenzo
+	
+	join Aria right
+	join Raana left
+	Aria: Yuk, nanti keburu penuh.
+	
+	Raana: …iya.
+	
+	leave Aria
+	leave Raana
+	
+	(Kenzo menatap dari jauh, diam)
+	
+	Kenzo: ...........
+	
+	leave Kenzo
+	
+	(scene bertransisi ke kantin)
+
+
+- B
+	leave Option
+	Raana: Hehe… hal kecil kok, gak penting.
+	leave Raana
+	
+	join Kenzo right
+	Kenzo: Heh.
+	
+	Kenzo: Kamu sering bohong gitu ya kalau ditanya
+	
+	leave Kenzo
+	
+	join Aria right
+	join Raana left
+	Aria: Kami mau lewat, Kenzo.
+	
+	Kenzo: Oh iya.
+	Kenzo: Silakan.
+	
+	(Kenzo sengaja lambat minggir)
+	
+	leave Kenzo
+	leave Aria
+	leave Raana
+	
+	(Kenzo menoleh sebentar)
+	
+	leave Kenzo
+	
+	(scene bertransisi ke kantin)
+
+
+- C
+	leave Option
+	Raana: Masalah buat kamu?
+	leave Raana
+	
+	join Kenzo right
+	(Kenzo tertawa kecil)
+	
+	Kenzo: Oh?
+	
+	Kenzo: Baru juga sehari.
+	
+	(Kenzo melangkah lebih dekat)
+	
+	Kenzo: Biasanya yang kayak gitu…
+	Kenzo: Orang yang problematik
+	
+	leave Kenzo
+	
+	join Aria center
+	Aria: Kenzo, cukup.
+	
+	join Raana left
+	Raana: ……
+	
+	leave Aria
+	
+	join Kenzo right
+	Kenzo: Santai aja.
+	Kenzo: Aku cuma ngobrol kok.
+	
+	(Kenzo melangkah mundur sambil tersenyum)
+	
+	Kenzo: Kita ketemu lagi, Raana.
+	
+	leave Kenzo
+	leave Raana
+	
+	(Raana berdiri sendirian)
+	
+	Raana: (Ini belum selesai.)
+	
+	(scene bertransisi ke kantin)

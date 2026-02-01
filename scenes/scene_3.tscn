@@ -1,0 +1,60 @@
+[gd_scene load_steps=8 format=3 uid="uid://clnsmmqilxbc1"]
+
+[ext_resource type="Script" uid="uid://hvdnk6gjvhfc" path="res://scenes/scene_1.gd" id="1_xcvhn"]
+[ext_resource type="Texture2D" uid="uid://b6rwoqb4yh385" path="res://assets/background/Kantin.png" id="2_xcvhn"]
+[ext_resource type="PackedScene" uid="uid://cnthdoidp0r6w" path="res://scenes/player/chibi_raana.tscn" id="3_r2pi8"]
+[ext_resource type="PackedScene" uid="uid://vbj47t8kfl3x" path="res://scenes/player/chibi_aria.tscn" id="4_lmrsu"]
+[ext_resource type="FontFile" uid="uid://bw5ovuucum1i7" path="res://assets/fonts/Pangolin-Regular.ttf" id="5_087sr"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sj5te"]
+size = Vector2(260, 46.375)
+
+[sub_resource type="Theme" id="Theme_t6bmd"]
+
+[node name="Scene3" type="Node2D"]
+script = ExtResource("1_xcvhn")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_top = -1.0
+offset_right = 1152.0
+offset_bottom = 786.0
+texture = ExtResource("2_xcvhn")
+expand_mode = 3
+
+[node name="ChibiRaana" parent="." instance=ExtResource("3_r2pi8")]
+position = Vector2(553, 195)
+
+[node name="ChibiAria" parent="." instance=ExtResource("4_lmrsu")]
+position = Vector2(-306, 468)
+
+[node name="Area2D2" type="Area2D" parent="."]
+position = Vector2(357, 263)
+disable_mode = 1
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(-36, -16.375)
+rotation = -0.027786702
+shape = SubResource("RectangleShape2D_sj5te")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(-262, 181.99997)
+rotation = -1.5563786
+shape = SubResource("RectangleShape2D_sj5te")
+
+[node name="ColorRect" type="Panel" parent="."]
+offset_left = 24.0
+offset_top = 10.0
+offset_right = 313.0
+offset_bottom = 77.0
+theme = SubResource("Theme_t6bmd")
+
+[node name="Label" type="Label" parent="ColorRect"]
+layout_mode = 0
+offset_left = 14.0
+offset_top = 22.0
+offset_right = 269.0
+offset_bottom = 45.0
+theme_override_fonts/font = ExtResource("5_087sr")
+text = "Masuk ke kelasmu dan mulai berkeliling"
+
+[connection signal="body_entered" from="Area2D2" to="." method="_on_area_2d_2_body_entered"]

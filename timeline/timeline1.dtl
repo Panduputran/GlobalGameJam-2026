@@ -11,5 +11,9 @@ join Option (Option1) center
 - B
 	Raana: Oke… harus pura-pura gak gugup
 	Raana: aku harus bisa supaya diterima sama mereka
-[signal arg="Option1"]
+leave --All--
+join Raana left
 Raana: aku pasti bisa
+[background arg="res://assets/background/Bg kelas pixel.png" fade="1.0"]
+(Raana pun bergegas memasuki kelas)
+[signal arg="option1"]
